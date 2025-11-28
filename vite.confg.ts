@@ -9,4 +9,8 @@ export default defineConfig({
     // Cette ligne évite les crashs "process is not defined" dans le navigateur
     'process.env': {}
   },
+  build: {
+    // Assure que le dossier de sortie est standard
+    outDir: 'dist',
+  }
 });
