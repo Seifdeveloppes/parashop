@@ -1,4 +1,4 @@
-// Service désactivé - IA supprimée
+// Service IA désactivé
 export const sendMessageToGemini = async (message: string, history: any[]): Promise<string> => {
-  return "AI Service is disabled.";
+  return "Le service d'assistant virtuel est actuellement désactivé.";
 };
